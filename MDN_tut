@@ -1,2 +1,9 @@
 let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let length = text.length;
+let result = 5 > 4;
+alert( result );
+let a = "Glee";
+let b = "Glow";
+let c = "Gled";
+alert( b > a);
+alert( b > c);
