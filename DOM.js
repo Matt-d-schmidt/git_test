@@ -3,11 +3,11 @@ const container = document.getElementById('container');
 const p = document.createElement("p");
 p.classList.add("p");
 p.textContent = "Hey I'm red!";
-p.style.cssText('color: red;');
+p.style.cssText = 'color: red;';
 
 const h3 = document.createElement("h3");
 h3.classList.add("h3");
-p.textContent = "I'm a blue h3!";
+h3.textContent = "I'm a blue h3!";
 h3.style.cssText = 'color: blue;';
 
 const div = document.createElement("div");
