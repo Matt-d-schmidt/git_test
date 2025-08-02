@@ -1,4 +1,4 @@
-const container = document.getElementById('container');
+const container = document.querySelector('container');
 
 const p = document.createElement("p");
 p.classList.add("p");
@@ -26,3 +26,5 @@ p2.textContent = "ME TOO!";
 div.appendChild(p2);
 
 container.appendChild(p);
+container.appendChild(h3);
+container.appendChild(div);
